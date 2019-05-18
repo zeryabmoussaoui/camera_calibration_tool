@@ -84,7 +84,7 @@ dist_coeff:
 
 You can add more images using [space] and perform calibration again to see of mean error is descreasing. 
 
-### Other command
+### Other commands
 Press :
 * [ESC] to exit.
 * [r] to reset operation.
