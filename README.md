@@ -23,6 +23,8 @@ The following libraries shall be installed :
 
 ### Find camera id
 
+#### In Linux
+
 Install v4l2-tools and run :
 ```
 v4l2-ctl --list-devices
@@ -33,7 +35,13 @@ Which outputs :
 Integrated Camera (usb-0000:00:1a.0-1.6):
         /dev/video0
 ```
-If different from **0** edit L24 of [calibrate_camera.py](./calibrate_camera.py) 
+#### In Windows
+
+Please see tutorial : https://www.codepool.biz/multiple-camera-opencv-python-windows.html
+
+#### Update id
+
+If it is different from **0** : edit L24 of [calibrate_camera.py](./calibrate_camera.py) 
 
 ### Preparation
 
