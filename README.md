@@ -31,8 +31,9 @@ Which outputs :
 
 ```
 Integrated Camera (usb-0000:00:1a.0-1.6):
-        /dev/video*0*
+        /dev/video0
 ```
+If different from **0** edit L24 of [calibrate_camera.py](./calibrate_camera.py) 
 
 ### Preparation
 
@@ -42,7 +43,7 @@ Print the [chessboard.png](./chessboard.png) and stick it to a flat surface.
 
 Run : 
 ```
-python calibration_calibration
+python camera_calibration.py
 ```
 it will display a video stream :
 
