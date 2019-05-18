@@ -23,7 +23,7 @@ The following libraries shall be installed :
 
 ### Find camera id
 
-You shall first find your camera id , otherwise install v4l2-tools and run :
+Install v4l2-tools and run :
 ```
 v4l2-ctl --list-devices
 ```
