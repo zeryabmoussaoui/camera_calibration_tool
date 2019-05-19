@@ -91,7 +91,7 @@ dist_coeff:
 
 ```
 
-You can add more images using [space] and perform calibration again to see of mean error is descreasing. 
+You can add more images using [space] and perform calibration again to see if mean error is descreasing. 
 
 ### Other commands
 Press :
